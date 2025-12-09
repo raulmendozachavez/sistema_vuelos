@@ -4,6 +4,8 @@ require_once 'config.php';
 $error = '';
 $success = '';
 
+//Comentario de prueba
+
 // Procesar login
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
     $email = trim($_POST['email']);
